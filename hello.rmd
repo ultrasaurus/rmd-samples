@@ -1,0 +1,22 @@
+---
+title: "Sample Document"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
+
+## Welcome
+
+Hello world!
+
+## Section Content
+
+Here's some stuff
+
+
+## Conclusion
+
+This is a small sample
+
+
