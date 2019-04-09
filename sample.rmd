@@ -18,7 +18,7 @@ bibliography: bibtex.bib
 ---
 
 <!---
-- source: https://raw.githubusercontent.com/tgirke/GEN242/gh-pages/_vignettes/07_Rbasics/sample.Rmd
+- source: https://github.com/tgirke/GEN242/blob/gh-pages/_vignettes/07_Rbasics/sample.Rmd
 - Compile from command-line
 Rscript -e "rmarkdown::render('sample.Rmd', c('html_document'), clean=FALSE)"
 -->
