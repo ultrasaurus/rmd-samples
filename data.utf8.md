@@ -1,0 +1,35 @@
+
+---
+title: "Sample Radar Charts" 
+author: "Author: Sarah Allen"
+date: "Last update: 09 April, 2019" 
+output:
+  html_document:
+    toc: true
+    toc_float:
+        collapsed: true
+        smooth_scroll: true
+    toc_depth: 3
+    fig_caption: yes
+    code_folding: show
+    number_sections: true
+
+fontsize: 14pt
+---
+
+<!---
+rscript -e "rmarkdown::render('data.rmd', c('html_document'), clean=FALSE)"
+-->
+
+
+
+
+```r
+data <- data.frame(label = c("A", "Z", "E", "R", "T"),
+                   Product1 = c(1, 2, 3, 4, 2), 
+                   Product2 = c(2, 8, 1, 1, 0),
+                   Product3 = c(1,1,2,2,4))
+amRadar(data = data)
+```
+
+preserveda603d9602c44a30

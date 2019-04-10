@@ -21,3 +21,8 @@ rscript -e "rmarkdown::render('hello.rmd')"
 
 rscript -e "rmarkdown::render('sample.Rmd', c('html_document'), clean=FALSE)"
 ```
+
+
+## References
+
+https://kbroman.org/knitr_knutshell/pages/Rmarkdown.html
