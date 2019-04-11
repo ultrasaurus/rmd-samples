@@ -22,7 +22,7 @@ rscript -e "rmarkdown::render('data.rmd', c('html_document'), clean=FALSE)"
 -->
 
 
-preservec5f9023041c978e4
+preserve4568245d0288192f
 
 <!---
 # Error in legend(position = "left", useMarkerColorForLabels = TRUE) : 
@@ -34,4 +34,4 @@ amRadar(data = data, legend = legend_obj, pch = "bubble", export = TRUE)
 -->
 
 
-preserve427d9c4903685b57
+preserve47a8af2b41e55765
