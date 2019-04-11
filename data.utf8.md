@@ -2,7 +2,7 @@
 ---
 title: "Sample Radar Charts" 
 author: "Author: Sarah Allen"
-date: "Last update: 09 April, 2019" 
+date: "Last update: 11 April, 2019" 
 output:
   html_document:
     toc: true
@@ -22,14 +22,16 @@ rscript -e "rmarkdown::render('data.rmd', c('html_document'), clean=FALSE)"
 -->
 
 
+preservec5f9023041c978e4
+
+<!---
+# Error in legend(position = "left", useMarkerColorForLabels = TRUE) : 
+#  unused arguments (position = "left", useMarkerColorForLabels = TRUE)
+# when using this syntax from: https://datastorm-open.github.io/introduction_ramcharts/convert.html
+
+legend_obj <- legend(position = "left", useMarkerColorForLabels = TRUE)
+amRadar(data = data, legend = legend_obj, pch = "bubble", export = TRUE) 
+-->
 
 
-```r
-data <- data.frame(label = c("A", "Z", "E", "R", "T"),
-                   Product1 = c(1, 2, 3, 4, 2), 
-                   Product2 = c(2, 8, 1, 1, 0),
-                   Product3 = c(1,1,2,2,4))
-amRadar(data = data)
-```
-
-preserveda603d9602c44a30
+preserve427d9c4903685b57

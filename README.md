@@ -12,6 +12,7 @@ brew install pandoc-citeproc
 ```
 install.packages("rmarkdown")
 install.packages("DT")
+install.packages("pipeR")
 ```
 
 ## Render files
